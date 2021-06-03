@@ -5,8 +5,6 @@ ruby '2.7.1'
 
 # does shopify gem be first ?
 gem 'shopify_app', '~> 18.0.1'
-# to allow us to hide our API key and password in a .env file:
-gem 'dotenv-rails', groups: [:development, :test]
 # to allow us to easily make requests to Shopify's REST API
 # gem 'rest-client'
 # to make cross-origin AJAX possible
@@ -40,6 +38,8 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  # to allow us to hide our API key and password in a .env file:
+  gem 'dotenv-rails'
 end
 
 group :development do
