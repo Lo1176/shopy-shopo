@@ -5,6 +5,12 @@ ruby '2.7.1'
 
 # does shopify gem be first ?
 gem 'shopify_app', '~> 18.0.1'
+# to allow us to hide our API key and password in a .env file:
+gem 'dotenv-rails', groups: [:development, :test]
+# to allow us to easily make requests to Shopify's REST API
+# gem 'rest-client'
+# to make cross-origin AJAX possible
+# gem 'rack-cors'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
