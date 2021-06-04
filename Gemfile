@@ -6,7 +6,7 @@ ruby '2.7.1'
 # does shopify gem be first ?
 gem 'shopify_app', '~> 18.0.1'
 # to allow us to easily make requests to Shopify's REST API
-gem 'rest-client'
+# gem 'rest-client'
 # to make cross-origin AJAX possible
 # gem 'rack-cors'
 

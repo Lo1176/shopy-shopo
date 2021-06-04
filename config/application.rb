@@ -33,5 +33,3 @@ module ShopyShopo
     config.generators.system_tests = nil
   end
 end
-
-# Dotenv::Railtie.load
