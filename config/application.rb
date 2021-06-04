@@ -34,4 +34,4 @@ module ShopyShopo
   end
 end
 
-Dotenv::Railtie.load
+# Dotenv::Railtie.load
